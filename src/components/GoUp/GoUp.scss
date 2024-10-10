@@ -1,0 +1,33 @@
+.go-up-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 1366px;
+    width: 100%;
+
+    .go-up{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        // background-color: black;
+        background-color: #f5f5fb;
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+        position: absolute;
+        right: 20px;
+        top: -60px;
+        cursor: pointer;
+        box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.247);
+
+        .move-up-icon{
+            width: 25px;
+            height: 25px;
+            color: #E30613;
+        }
+    }
+}
