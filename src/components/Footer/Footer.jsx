@@ -6,6 +6,8 @@ import { CgFacebook } from "react-icons/cg";
 import { RiTwitterXFill } from "react-icons/ri";
 import { FaInstagram } from "react-icons/fa";
 import { RiWhatsappFill } from "react-icons/ri";
+import { IoMail } from "react-icons/io5";
+import { IoLocation } from "react-icons/io5";
 
 const Footer = () => {
   return (
@@ -31,13 +33,13 @@ const Footer = () => {
               </div>
             </li>
             <li className="location">
-              <CgFacebook className="icon" />
+              <IoLocation className="icon" />
               <span style={{ color: "white", opacity: "0.7" }}>
                 Douala Cameroun
               </span>
             </li>
             <li className="location">
-              <CgFacebook className="icon" />
+              <IoLocation className="icon" />
               <span style={{ color: "white", opacity: "0.7" }}>
                 Douala Cameroun
               </span>
@@ -57,7 +59,7 @@ const Footer = () => {
               </span>
             </li>
             <li className="phone">
-              <RiWhatsappFill className="icon" />
+              <IoMail className="icon" />
               <span style={{ color: "white", opacity: "0.7" }}>
                 aideconsulting20@gmail.com
               </span>

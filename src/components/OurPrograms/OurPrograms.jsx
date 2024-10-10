@@ -2,6 +2,9 @@ import React from "react";
 import "./OurPrograms.scss";
 import worker from "../../assets/images/worker.jpg";
 import family from "../../assets/images/family.jpg";
+import { PiStudentFill } from "react-icons/pi";
+import { IoManSharp } from "react-icons/io5";
+import { FaPersonWalking } from "react-icons/fa6";
 
 const OurPrograms = () => {
   return (
