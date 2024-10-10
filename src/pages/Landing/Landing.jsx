@@ -6,6 +6,8 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { CgFacebook } from "react-icons/cg";
 import { RiTwitterXFill } from "react-icons/ri";
 import { FaInstagram } from "react-icons/fa";
+import { RiWhatsappFill } from "react-icons/ri";
+import { IoLocation } from "react-icons/io5";
 
 const Landing = () => {
   return (
@@ -79,13 +81,13 @@ const Landing = () => {
             </div>
             <div className="location-phone">
               <span className="location">
-                <CgFacebook className="icon" />
+                <IoLocation className="icon" />
                 <span style={{ color: "white", opacity: "0.7" }}>
                   Douala Cameroun
                 </span>
               </span>
               <span className="phone">
-                <CgFacebook className="icon" />
+                <RiWhatsappFill className="icon" />
                 <span style={{ color: "white", opacity: "0.7" }}>
                   +237 600000000
                 </span>

@@ -9,7 +9,15 @@ import team04 from "../../assets/images/team4.jpg";
 import team03 from "../../assets/images/team3.jpg";
 import logo from "../../assets/images/logo.png";
 
-const SwiperHero = () => {
+const SwiperHero = ({
+  button01,
+  button02,
+  toBtn01,
+  toBtn02,
+  image01,
+  image02,
+  pageTitle,
+}) => {
   return (
     <div className="swiper-hero-container">
       <div className="swiper-hero">
@@ -29,7 +37,7 @@ const SwiperHero = () => {
         >
           <SwiperSlide>
             <div className="image-container">
-              <img src={team04} alt="" />
+              <img src={image01} alt="" />
             </div>
             <div className="content">
               <div class="logo">
@@ -38,35 +46,35 @@ const SwiperHero = () => {
                 </a>
               </div>
 
-              <h1>TITRE</h1>
+              <h1>{pageTitle}</h1>
               <div className="btns">
-                <a href="/">
-                  <button>Programmes</button>
+                <a href={toBtn01}>
+                  <button>{button01}</button>
                 </a>
-                <a href="/">
-                  <button>Actualités</button>
+                <a href={toBtn02}>
+                  <button>{button02}</button>
                 </a>
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="image-container">
-              <img src={team03} alt="" />
+              <img src={image02} alt="" />
             </div>
             <div className="content">
               <div class="logo">
-                <a href="">
+                <a href="/">
                   <img src={logo} alt="" />
                 </a>
               </div>
 
-              <h1>Programmes</h1>
+              <h1>{pageTitle}</h1>
               <div className="btns">
-                <a href="/">
-                  <button>Accueil</button>
+                <a href={toBtn01}>
+                  <button>{button01}</button>
                 </a>
-                <a href="/">
-                  <button>Actualités</button>
+                <a href={toBtn02}>
+                  <button>{button02}</button>
                 </a>
               </div>
             </div>
