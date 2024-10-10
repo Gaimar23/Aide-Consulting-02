@@ -33,17 +33,17 @@ const SwiperHero = () => {
             </div>
             <div className="content">
               <div class="logo">
-                <a href="">
+                <a href="/">
                   <img src={logo} alt="" />
                 </a>
               </div>
 
               <h1>TITRE</h1>
               <div className="btns">
-                <a href="">
+                <a href="/">
                   <button>Programmes</button>
                 </a>
-                <a href="">
+                <a href="/">
                   <button>Actualités</button>
                 </a>
               </div>
@@ -62,10 +62,10 @@ const SwiperHero = () => {
 
               <h1>Programmes</h1>
               <div className="btns">
-                <a href="">
+                <a href="/">
                   <button>Accueil</button>
                 </a>
-                <a href="">
+                <a href="/">
                   <button>Actualités</button>
                 </a>
               </div>
