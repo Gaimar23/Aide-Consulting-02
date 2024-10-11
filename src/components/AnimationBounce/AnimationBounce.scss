@@ -1,0 +1,50 @@
+.animation-bounce{
+    width: 100%;
+    // background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    height: 0px;
+
+    .dots{
+        display: flex;
+        align-items: center;
+        gap: 2px;
+        z-index: 1;
+        position: absolute;
+        bottom: -0px;
+
+        .dot{
+            width: 20px;
+            height: 20px;
+            background-color: #E30613;
+            border: 2px solid #E30613;
+            content: "";
+            border-radius: 50%;
+            animation: bounce 0.5s infinite alternate;
+
+            &:nth-child(2){
+                animation-delay: 100ms;
+            } 
+
+            &:nth-child(3){
+                animation-delay: 200ms;
+            } 
+            &:nth-child(4){
+                animation-delay: 300ms;
+            } 
+            &:nth-child(5){
+                animation-delay: 400ms;
+            } 
+    
+        }
+
+    }
+
+}
+
+@keyframes bounce {
+    100%{translate: 0 -20px;}
+}

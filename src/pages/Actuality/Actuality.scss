@@ -5,5 +5,20 @@
         .footer-container{
             margin-top: 0;
         }
+
+        // &:nth-child(3){
+        //     display: none;
+        // }
+
+        .animation-bounce{
+
+            &:nth-child(2){
+
+                .dots{
+                    bottom: -60px;
+                }
+                
+            }
+        }
     }
 }

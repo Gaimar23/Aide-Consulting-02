@@ -5,6 +5,7 @@ import team04 from "../../assets/images/team4.jpg";
 import team03 from "../../assets/images/team3.jpg";
 import OurEvents from "../../components/OurEvents/OurEvents";
 import Footer from "../../components/Footer/Footer";
+import AnimationBounce from "../../components/AnimationBounce/AnimationBounce";
 
 const Actuality = () => {
   return (
@@ -20,7 +21,9 @@ const Actuality = () => {
           pageTitle={"Actualités"}
           goDown={"#our-events"}
         />
+        <AnimationBounce />
         <OurEvents />
+        <AnimationBounce />
         <Footer />
       </div>
     </div>

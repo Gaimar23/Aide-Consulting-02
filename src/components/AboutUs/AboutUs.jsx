@@ -72,7 +72,7 @@ const AboutUs = () => {
               </div>
               <div className="title">A PROPOS DE AC</div>
             </div>
-            <h1 className="sub-title">Notre source d'inspiration</h1>
+            <h1 className="sub-title">Le chemin parcouru</h1>
           </div>
           <div className="bottom">
             <div className="desc">

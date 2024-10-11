@@ -5,8 +5,8 @@ import ActionCards from "../../components/ActionCards/ActionCards";
 import AboutUs from "../../components/AboutUs/AboutUs";
 import Testimonies from "../../components/Testimonies/Testimonies";
 import Footer from "../../components/Footer/Footer";
-import team04 from "../../assets/images/team4.jpg";
-import team03 from "../../assets/images/team3.jpg";
+import team04 from "../../assets/images/wel2.jpg";
+import team03 from "../../assets/images/wel4.jpg";
 
 const Accueil = () => {
   return (

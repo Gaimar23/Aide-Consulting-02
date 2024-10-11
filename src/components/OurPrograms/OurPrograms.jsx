@@ -1,7 +1,8 @@
 import React from "react";
 import "./OurPrograms.scss";
-import worker from "../../assets/images/worker.jpg";
-import family from "../../assets/images/family.jpg";
+import visa1 from "../../assets/images/visa1.jpg";
+import visa2 from "../../assets/images/visa2.jpg";
+import visa3 from "../../assets/images/visa3.jpg";
 import { PiStudentFill } from "react-icons/pi";
 import { IoManSharp } from "react-icons/io5";
 import { FaPersonWalking } from "react-icons/fa6";
@@ -25,7 +26,7 @@ const OurPrograms = () => {
           <div className="item">
             <div className="left">
               <div className="image-container">
-                <img src={worker} alt="" />
+                <img src={visa1} alt="" />
               </div>
             </div>
             <div className="right">
@@ -54,14 +55,14 @@ const OurPrograms = () => {
             </div>
             <div className="left">
               <div className="image-container">
-                <img src={family} alt="" />
+                <img src={visa2} alt="" />
               </div>
             </div>
           </div>
           <div className="item">
             <div className="left">
               <div className="image-container">
-                <img src={worker} alt="" />
+                <img src={visa3} alt="" />
               </div>
             </div>
             <div className="right">

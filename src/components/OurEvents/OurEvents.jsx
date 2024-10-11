@@ -17,9 +17,9 @@ const OurEvents = () => {
                   <span className="one"></span>
                   <span className="two"></span>
                 </div>
-                <div className="title">Faites vous assister</div>
+                <div className="title">Sous titre</div>
               </div>
-              <h1 className="sub-title">Nos services</h1>
+              <h1 className="sub-title">Evènement</h1>
             </div>
             <div className="bottom">
               <p className="detail">
@@ -58,9 +58,9 @@ const OurEvents = () => {
                   <span className="one"></span>
                   <span className="two"></span>
                 </div>
-                <div className="title">Faites vous assister</div>
+                <div className="title">Sous titre</div>
               </div>
-              <h1 className="sub-title">Nos services</h1>
+              <h1 className="sub-title">Evènement</h1>
             </div>
             <div className="bottom">
               <p className="detail">
@@ -99,9 +99,9 @@ const OurEvents = () => {
                   <span className="one"></span>
                   <span className="two"></span>
                 </div>
-                <div className="title">Faites vous assister</div>
+                <div className="title">Sous titre</div>
               </div>
-              <h1 className="sub-title">Nos services</h1>
+              <h1 className="sub-title">Evènement</h1>
             </div>
             <div className="bottom">
               <p className="detail">

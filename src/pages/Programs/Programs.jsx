@@ -3,8 +3,8 @@ import "./Programs.scss";
 import SwiperHero from "../../components/SwiperHero/SwiperHero";
 import OurPrograms from "../../components/OurPrograms/OurPrograms";
 import Footer from "../../components/Footer/Footer";
-import team04 from "../../assets/images/team4.jpg";
-import team03 from "../../assets/images/team3.jpg";
+import team04 from "../../assets/images/program2.jpg";
+import team03 from "../../assets/images/program1.jpg";
 
 const Programs = () => {
   return (
