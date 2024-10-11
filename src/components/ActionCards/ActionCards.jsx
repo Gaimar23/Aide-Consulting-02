@@ -9,7 +9,7 @@ import { FaHandshakeSimple } from "react-icons/fa6";
 
 const ActionCards = () => {
   return (
-    <div className="action-cards-container">
+    <div className="action-cards-container" id="action-cards">
       <div className="action-cards">
         <div className="card">
           <div className="head">

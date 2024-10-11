@@ -6,7 +6,7 @@ import team1 from "../../assets/images/team1.jpg";
 
 const OurEvents = () => {
   return (
-    <div className="our-events-container">
+    <div className="our-events-container" id="our-events">
       <div className="our-events">
         <div className="item">
           <div className="right">
@@ -54,6 +54,7 @@ const OurEvents = () => {
             <div className="head">
               <div className="title-container">
                 <div className="slash">
+                  <span className="order">2</span>
                   <span className="one"></span>
                   <span className="two"></span>
                 </div>
@@ -94,6 +95,7 @@ const OurEvents = () => {
             <div className="head">
               <div className="title-container">
                 <div className="slash">
+                  <span className="order">3</span>
                   <span className="one"></span>
                   <span className="two"></span>
                 </div>

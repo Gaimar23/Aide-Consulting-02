@@ -8,7 +8,7 @@ import { FaPersonWalking } from "react-icons/fa6";
 
 const OurPrograms = () => {
   return (
-    <div className="our-programs-container">
+    <div className="our-programs-container" id="our-programs">
       <div className="our-programs">
         <div className="top">
           <div className="first top-line"></div>

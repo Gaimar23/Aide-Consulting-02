@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.scss";
-import Logo from "../../assets/images/Logo2.png";
+import Logo from "../../assets/images/Logo.png";
 import { FaLinkedinIn } from "react-icons/fa";
 import { CgFacebook } from "react-icons/cg";
 import { RiTwitterXFill } from "react-icons/ri";
@@ -65,13 +65,13 @@ const Footer = () => {
               </span>
             </li>
           </ul>
-          {/* <p className="copy-right">
+          <p className="copy-right">
             © 2024 aideconsulting.com - Designed by Gaimard F.
-          </p> */}
+          </p>
         </div>
-        <p className="copy-right">
+        {/* <p className="copy-right">
           © 2024 aideconsulting.com - Designed by Gaimard F.
-        </p>
+        </p> */}
       </div>
     </div>
   );

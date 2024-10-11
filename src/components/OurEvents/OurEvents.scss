@@ -2,6 +2,13 @@
     background: #f5f5fb;
     display: flex;
     justify-content: center;
+    padding-bottom: 60px;
+
+    // &::after{
+    //     content: "";
+    //     width: 100%;
+    //     height: 60px;
+    // }
 
     .our-events{
         max-width: 1366px;

@@ -18,6 +18,7 @@ const Actuality = () => {
           button02={"Programmes"}
           button01={"Accueil"}
           pageTitle={"Actualités"}
+          goDown={"#our-events"}
         />
         <OurEvents />
         <Footer />

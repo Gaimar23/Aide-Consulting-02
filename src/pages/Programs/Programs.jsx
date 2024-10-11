@@ -18,6 +18,7 @@ const Programs = () => {
           button01={"Accueil"}
           button02={"Actualités"}
           pageTitle={"Programmes"}
+          goDown={"#our-programs"}
         />
         <OurPrograms />
         <Footer />

@@ -8,6 +8,7 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import team04 from "../../assets/images/team4.jpg";
 import team03 from "../../assets/images/team3.jpg";
 import logo from "../../assets/images/logo.png";
+import { FaArrowDownLong } from "react-icons/fa6";
 
 const SwiperHero = ({
   button01,
@@ -17,6 +18,7 @@ const SwiperHero = ({
   image01,
   image02,
   pageTitle,
+  goDown,
 }) => {
   return (
     <div className="swiper-hero-container">
@@ -55,6 +57,12 @@ const SwiperHero = ({
                   <button>{button02}</button>
                 </a>
               </div>
+
+              <div className="go-down">
+                <a href={goDown} className="go-down-link">
+                  <FaArrowDownLong className="move-down-icon" />
+                </a>
+              </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
@@ -75,6 +83,12 @@ const SwiperHero = ({
                 </a>
                 <a href={toBtn02}>
                   <button>{button02}</button>
+                </a>
+              </div>
+
+              <div className="go-down">
+                <a href={goDown} className="go-down-link">
+                  <FaArrowDownLong className="move-down-icon" />
                 </a>
               </div>
             </div>

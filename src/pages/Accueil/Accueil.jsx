@@ -19,6 +19,7 @@ const Accueil = () => {
         button01={"Programmes"}
         button02={"Actualités"}
         pageTitle={"Accueil"}
+        goDown={"#action-cards"}
       />
       <ActionCards />
       <AboutUs />
