@@ -65,13 +65,18 @@ const Footer = () => {
               </span>
             </li>
           </ul>
-          <p className="copy-right">
+          {/* <p className="copy-right">
             © 2024 aideconsulting.com - Designed by Gaimard F.
-          </p>
+          </p> */}
+          <ul className="appointement">
+            <li className="meet title">Horaire d'ouverture</li>
+            <li className="meet ">Lundi-- Vendredi: 08H--17H</li>
+            <li className="meet ">Samedi: 09H--15H</li>
+          </ul>
         </div>
-        {/* <p className="copy-right">
+        <p className="copy-right">
           © 2024 aideconsulting.com - Designed by Gaimard F.
-        </p> */}
+        </p>
       </div>
     </div>
   );

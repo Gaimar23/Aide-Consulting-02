@@ -203,7 +203,15 @@
     }
 }
 
+@media only screen and (min-width: 1469px){
+    .about-us-container{
 
+        .about-us{
+            padding-bottom: 160px;
+        }
+    }
+
+}
 
 @media only screen and (max-width: 1250px){
     .about-us-container{
