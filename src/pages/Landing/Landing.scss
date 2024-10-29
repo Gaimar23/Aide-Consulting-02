@@ -19,8 +19,8 @@
             width: 100%;
             // height: 100vh;
             position: fixed;
-            right: 0;
-            bottom: 0;
+            // right: 0;
+            // bottom: 0;
             z-index: -1;
 
             &::before{
@@ -685,4 +685,36 @@
         
     
     }
+}
+
+
+
+
+
+
+@media screen and (min-width: 1370px){
+    #myVideo{
+        transform: scale(1.2);
+    }
+}
+
+@media screen and (min-width: 1500px){
+    #myVideo{
+        transform: scale(1.5);
+    }
+
+}
+
+@media screen and (min-width: 2000px){
+    #myVideo{
+        transform: scale(2);
+    }
+
+}
+
+@media screen and (min-width: 2700px){
+    #myVideo{
+        transform: scale(2.3);
+    }
+
 }
